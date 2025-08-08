@@ -11,12 +11,12 @@ Each folder contains the project’s **code**, **wiring diagrams**, **documentat
 ## 📂 Table of Contents
 
 - [Solar Powered Charging Lamp](Solar-Powered-Charging-Lamp/README.md)  
-- [Smart Fitness Tracker](smart-fitness-tracker/README.md)  
-- [Combined Movement Feedback System](combined-movement-system/README.md)  
-- [Capacitor Charge/Discharge Visualizer](capacitor-visualizer/README.md)  
-- [Weather Tracker GUI](weather-tracker-gui/README.md)  
-- [Wireless Transmission Demo](wireless-transmission-demo/README.md)  
-- [ML: Symbolic Regression for Physics](ml-physics-long-range/README.md)  
+- [Smart Fitness Tracker](Smart-Fitness-Tracker/README.md)  
+- [Combined Movement Feedback System](Combined-Movement-Feedback-System/README.md)  
+- [Capacitor Visualizer](Capacitor-Visualizer/README.md)  
+- [Weather Tracker GUI](Weather-Tracker-GUI/README.md)  
+- [Wireless Transmission Demo](Wireless-Transmission-Demo/README.md)  
+- [ML: Symbolic Regression for Physics](ML:-Symbolic-Regression-for-Physics/README.md)  
 
 ---
 
