@@ -64,6 +64,11 @@ Install libraries via Arduino IDE’s **Library Manager** or manually:
 4. **Connect Hardware** according to the wiring diagram (see wiring_diagram.png)
 5. **Open Serial Monitor** on the receiver Arduino at 9600 baud to view incoming data.
 
+## Example output
+[2025-08-07 15:12:45] Temp: 23.40 °C | Humidity: 56.0 %
+[2025-08-07 15:12:55] Temp: 23.42 °C | Humidity: 55.9 %
+[2025-08-07 15:13:05] Temp: 23.45 °C | Humidity: 56.1 %
+
 ## Lessons Learned
 - Integrating sensors with wireless communication modules.
 - Designing a simple but effective custom data protocol.
