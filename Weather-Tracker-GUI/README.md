@@ -1,58 +1,63 @@
-# Python Weather Tracker GUI
+# Python Weather Tracker (Tkinter GUI)
 
-**Built with:** Python, Tkinter, REST API integration
+## Overview
+This project is a real-time weather tracker built in **Python** using the **Tkinter** GUI library.  
+It retrieves live weather data from the **OpenWeatherMap API**, converting user-provided city names into geographical coordinates and displaying detailed conditions such as:
 
-## 📖 Project Overview
-This is a **real-time weather tracker application** developed in Python using the Tkinter GUI library.  
-It retrieves live weather data through the **OpenWeatherMap API**, converting user-provided city names into geographical coordinates and displaying detailed conditions including:
-
-- Temperature
+- Temperature (Celsius or Fahrenheit)
+- Feels like temperature
 - Humidity
 - Pressure
 - Wind speed
 - Cloudiness
 - Visibility
-- Local time adjusted for the city’s timezone
+- Local time (adjusted to city’s timezone)
+- Sunrise and sunset times
+
+The application features a **clean, responsive interface** for fast user interaction and supports **both metric and imperial** formats.
 
 ---
 
-## ✨ Key Features
-- **API Key Entry:** Users can enter their own OpenWeatherMap API key directly into the app.
-- **City Search:** Type any city name to retrieve weather details.
-- **Unit Toggle:** Switch between Celsius and Fahrenheit.
-- **Geocoding:** Automatic conversion of city names to latitude/longitude via OpenWeatherMap’s geocoding API.
-- **Local Time:** Displays a live clock adjusted for the city’s timezone offset.
-- **Recent Searches:** Dropdown menu for quick access to recently searched cities.
-- **Responsive GUI:** Clean, user-friendly interface for fast interaction.
-- **Dual Unit Support:** Supports both metric and imperial units.
+## Features
+- 🌦 **Live Weather Data** via OpenWeatherMap API
+- 📍 **City Name → Coordinates** automatic geocoding
+- ⏱ **Local Clock** based on retrieved timezone
+- 🔄 **Unit Toggle** (Celsius / Fahrenheit)
+- 📜 **Recent Searches Dropdown** for quick reuse
+- 🖥 Built entirely with **Python’s built-in Tkinter library**
 
 ---
 
-## 🎯 Learning Experience
-This project was a significant part of my **self-directed learning** process:
-- I began by **reading and understanding sample code templates**.
-- Gradually modified and expanded the code to match **real-world functionality** I wanted to implement.
-- Focused on **reverse engineering** and **code adaptation** rather than following a step-by-step tutorial.
-- Strengthened my skills in **Python fundamentals**, **GUI programming**, and **real-time API integration**.
+## Hardware & Software Requirements
+- Python 3.x
+- Internet connection
+- OpenWeatherMap API key (free to obtain at: https://openweathermap.org/api)
 
----
+### Python Libraries
+- `requests`
+- `tkinter` *(comes pre-installed with Python)*
+- `datetime` *(standard library)*
 
-## 🛠 Technical Details
-**Backend:**
-- Uses OpenWeatherMap’s **weather** and **geocoding** endpoints.
-- Handles API requests and JSON parsing to extract relevant data.
+## How it works
+1. **City Input**: The user enters a city name or selects from a dropdown of recent searches.
+2.	**Geocoding**: The application sends the city name to OpenWeatherMap’s Geocoding API to retrieve latitude and longitude.
+3.	**Weather Request**: These coordinates are used to request real-time weather data from OpenWeatherMap’s Weather API.
+4.	**Data Parsing**: The JSON response is parsed to extract temperature, weather conditions, and other details.	5.	Timezone Adjustment: The local time for the city is calculated using the timezone offset returned by the API.
+6.	**GUI Update**: All results are displayed in a neatly formatted Tkinter window, with units displayed according to the user’s Celsius/Fahrenheit selection.
 
-**Frontend:**
-- Built entirely with Python’s built-in **Tkinter** library.
-- Implements labels, dropdown menus, entry fields, and toggle buttons.
+## Usage
+1. Clone the repository
+2. Get your API key from OpeanWeatherMap
+3. Run the application
+4. **Using the App**:
+- Enter your API key
+- Enter your City name or select from the **recent searches dropdown**
+- Choose your unit preference (**Celsuis** or **Fahrenheit**)
+- Click Get Weather to fetch and display results/
 
----
-
-## 📦 Installation & Setup
-
-### 1. Clone the Repository
-```bash
-git clone <https://github.com/lhy0916/2025-Summer-projects.git>
-cd Weather-Tracker-GUI
-
- 
+## Lessons Learned
+- Reverse engineering existing code samples to understand data flow and event handling in Tkinter.
+- Implementing REST API integration in Python without external frameworks.
+- Parsing and formatting API responses for real-time user display.
+- Creating a dropdown history system for user convenience.
+- Understanding the interaction between geocoding and weather APIs.
