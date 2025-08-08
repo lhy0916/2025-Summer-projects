@@ -10,7 +10,7 @@ Each folder contains the project’s **code**, **wiring diagrams**, **documentat
 
 ## 📂 Table of Contents
 
-- [Solar Powered Charging Lamp](Solar Powered Charging Lamp/README.md)  
+- [Solar Powered Charging Lamp](Solar-Powered-Charging-Lamp/README.md)  
 - [Smart Fitness Tracker](smart-fitness-tracker/README.md)  
 - [Combined Movement Feedback System](combined-movement-system/README.md)  
 - [Capacitor Charge/Discharge Visualizer](capacitor-visualizer/README.md)  
