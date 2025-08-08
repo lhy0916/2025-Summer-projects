@@ -55,6 +55,22 @@ The application features a **clean, responsive interface** for fast user interac
 - Choose your unit preference (**Celsuis** or **Fahrenheit**)
 - Click Get Weather to fetch and display results/
 
+## Example output
+Location: Vancouver, CA
+Latitude: 49.2608724
+Longitude: -123.113952
+Local Time: 2025-07-23 23:22:18
+Temperature: 19.88°C
+Feels Like: 19.93°C
+Condition: Clear Sky
+Humidity: 77%
+Pressure: 1014 hPa
+Visibility: 10000 m
+Cloudiness: 2%
+Wind Speed: 0.45 m/s
+Sunrise: 05:32:59
+Sunset: 21:04:35
+
 ## Lessons Learned
 - Reverse engineering existing code samples to understand data flow and event handling in Tkinter.
 - Implementing REST API integration in Python without external frameworks.
