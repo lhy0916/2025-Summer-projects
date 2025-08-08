@@ -16,7 +16,7 @@ Each folder contains the project’s **code**, **wiring diagrams**, **documentat
 - [Capacitor Visualizer](Capacitor-Visualizer/README.md)  
 - [Weather Tracker GUI](Weather-Tracker-GUI/README.md)  
 - [Wireless Transmission Demo](Wireless-Transmission-Demo/README.md)  
-- [ML: Symbolic Regression for Physics](ML:-Symbolic-Regression-for-Physics/README.md)  
+- [ML Symbolic Regression for Physics](ML-Symbolic-Regression-for-Physics/README.md)  
 
 ---
 
