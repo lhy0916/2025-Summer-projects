@@ -30,8 +30,7 @@ The circuit is built on a breadboard and monitored via the Arduino Serial Plotte
   - `matplotlib`
 
 ## Circuit Diagram
-![Circuit Diagram](assets/capacitor_visualizer_circuit.png)  
-*(Update with actual wiring diagram)*
+![Circuit Diagram](breadboard.JPEG)  
 
 ### Basic Wiring
 1. Connect one leg of the capacitor to GND, the other to a resistor leading to 5V.
