@@ -66,6 +66,8 @@ It uses a **5V solar panel** for energy harvesting, a **TP4056 lithium battery c
 Battery: 4.08V
 Charge: 85%
 Status: Lamp OFF
+
+
 (Values update in real-time depending on light and battery level.)
 
 ## Lessons Learned
