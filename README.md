@@ -3,7 +3,7 @@
 
 Hi! 👋 I’m an **incoming first-year engineering student at the University of British Columbia**, with a strong interest in **mechanical** and **electrical engineering**.  
 
-This repository is my central portfolio of **self-driven engineering projects**, combining hands-on prototyping, embedded systems programming, CAD modeling, and data analysis.  
+This repository is my central portfolio of **self-driven engineering projects**, combining hands-on prototyping, embedded systems programming, and data analysis.  
 Each folder contains the project’s **code**, **wiring diagrams**, **documentation**, and any **supporting datasets**.
 
 ---
