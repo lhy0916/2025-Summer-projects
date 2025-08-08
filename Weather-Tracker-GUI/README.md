@@ -17,5 +17,5 @@ A Python Tkinter application that retrieves and displays real-time weather data 
 ## Setup
 1. Clone this repository and navigate to this folder:
    ```bash
-   git clone <repo-url>
+   git clone <https://github.com/lhy0916/2025-Summer-projects.git>
    cd Weather-Tracker-GUI
