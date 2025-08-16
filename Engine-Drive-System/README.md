@@ -29,9 +29,8 @@ A second engine is linked via a direct shaft connection, running passively throu
 - Button D2 → GND (Start/Stop)  
 - Button D4 → GND (Timed Run)  
 - Motor → OUT1, OUT2 on L298N  
-- Batteries (2× 3.7 V in series) → +12V, GND on L298N  
+- Batteries (2× 3.7 V in series) → +12V, GND on L298N
 
-![Wiring Diagram](wiring-diagram.png)
 
 ## 💻 Code
 See [Arduino_Controlled_Dual_V8_Engine_Demostrator.ino](Arduino_Controlled_Dual_V8_Engine_Demostrator.ino) for the Arduino sketch.
