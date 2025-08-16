@@ -15,7 +15,8 @@ Each folder contains the project’s **code**, **wiring diagrams**, **documentat
 - [Combined Movement Feedback System](Combined-Movement-Feedback-System/README.md)  
 - [Capacitor Visualizer](Capacitor-Visualizer/README.md)  
 - [Weather Tracker GUI](Weather-Tracker-GUI/README.md)  
-- [Wireless Transmission Demo](Wireless-Transmission-Demo/README.md)  
+- [Wireless Transmission Demo](Wireless-Transmission-Demo/README.md)
+- [Engine Drive System](Engine-Drive-System/README.md)
 - [ML Symbolic Regression for Physics](ML-Symbolic-Regression-for-Physics/README.md)  
 
 ---
